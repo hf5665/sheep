@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiagnosticTool0.9</string>
+    <string name="action_settings">setting</string>
+    <string name="video_test">Video test</string>
+    <string name="sdcard_test">SD card test</string>
+    <string name="wifi_test">Wifi test</string>
+    <string name="eth0_test">Ethernet test</string>
+    <string name="result">Test complete</string>
+</resources>
