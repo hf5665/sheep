@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">httpstreaming0415</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string-array name="videoname">
+	    <item>Apple</item>
+	    <item>Banana</item>
+	    <item>Cherry</item>
+	    <item>Mango</item>
+	    <item>http://192.168.0.100/_TearsOfSteel_4k_3min.mkv</item>
+	    <item>Pear</item>
+	</string-array>    
+</resources>
