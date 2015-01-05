@@ -3,12 +3,14 @@ package com.example.button;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 import org.w3c.dom.Text;
 
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.PowerManager;
 import android.app.Activity;
 import android.content.Context;
@@ -22,7 +24,7 @@ public class MainActivity extends Activity {
 
 	private Button onebtn;
 	private TextView text;
-	
+	Process process;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,12 +44,49 @@ public class MainActivity extends Activity {
 	
 	private Button.OnClickListener onebtnclick=new Button.OnClickListener(){
 		public void onClick(View v){
-			
-			Toast.makeText(getApplicationContext(), "read String from system", Toast.LENGTH_LONG).show();
+		
+			Toast.makeText(getApplicationContext(), "do_exec(...)", Toast.LENGTH_LONG).show();
 			//the command must be execute by user,if only for root,do_exec() can't run successful.		   
-			 
-			//do_exec("netcfg");  //ok
-			 do_exec("cat /proc/version"); //ok
+		
+	
+//  2015/01/05	
+/*			
+			try{
+				 Runtime rt=Runtime.getRuntime();
+				 String[]cmd= {"top"};//ok			 		 
+				 Process pr=rt.exec(cmd);				 
+				 BufferedReader input = new BufferedReader( new InputStreamReader(pr.getInputStream()));
+				 String line = null;
+				 while ((line = input.readLine()) != null) {  
+		                System.out.println(line);                
+		            
+			 }
+			 } catch (IOException e) {  
+		            // TODO Auto-generated catch block  
+		            e.printStackTrace();  
+		         
+		        
+		}
+
+}
+};
+}
+		        
+*/
+	
+			
+			
+			
+			
+			
+
+//2014/12/31			
+ 
+			do_exec("netcfg");  //ok
+			//do_exec("cat /proc/version"); //ok
+			//do_exec("./storage/sda1/reboot.sh"); //fail
+			//do_exec("system/bin" , "-c" , "./storage/sda1/reboot.sh"); //fail
+			//do_exec("su -c reboot"); //fail
 			 //do_exec("ls"); //ok
 			 //do_exec("adb install /storage/sda1/StabilityTest_2.7.apk"); //fail
 			 //do_exec("sh /storage/sda1/cpufreq.sh");//fail
@@ -57,29 +96,38 @@ public class MainActivity extends Activity {
 			 //do_exec("top");//fail
 			 //do_exec("cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq");//fail
 		     //do_exec("cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"); ok
-	
-		}
+			 
+		
 	};
 	
-	
+
 	 String do_exec(String cmd) {  
 	        String s = "";  
+	        
 	        try {  
+	     
 	            Process p = Runtime.getRuntime().exec(cmd);  
+	          
 	            BufferedReader in = new BufferedReader(  
-	                                new InputStreamReader(p.getInputStream()));  
+	                                new InputStreamReader(p.getInputStream()));
+	            
 	            String line = null;  
 	            while ((line = in.readLine()) != null) {  
 	                s += line + "\n";                 
-	            }  
+	            }
+	       
 	        } catch (IOException e) {  
 	            // TODO Auto-generated catch block  
 	            e.printStackTrace();  
 	        }  
-	        text.setText(s);  
+	        text.setText(s);
+       
 	        return cmd;       
-	    }  
+	    }
+	};
 
+}
 
-}	
+			
+			
 
