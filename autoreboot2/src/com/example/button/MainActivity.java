@@ -50,10 +50,14 @@ public class MainActivity extends Activity {
 		
 	
 //  2015/01/05	
-/*			
+			
 			try{
-				 Runtime rt=Runtime.getRuntime();
-				 String[]cmd= {"top"};//ok			 		 
+				Process process =Runtime.getRuntime().exec("su");
+				Runtime rt=Runtime.getRuntime();
+				 String[]cmd= {"./storage/sda1/startapk.sh"};//ok
+				 //String[]cmd= {"./storage/sda1/reboot.sh"};//
+				 //String[]cmd= {"top"};//ok			 		 
+				 //String[]cmd= {"logcat"};//ok
 				 Process pr=rt.exec(cmd);				 
 				 BufferedReader input = new BufferedReader( new InputStreamReader(pr.getInputStream()));
 				 String line = null;
@@ -72,7 +76,7 @@ public class MainActivity extends Activity {
 };
 }
 		        
-*/
+
 	
 			
 			
@@ -81,19 +85,16 @@ public class MainActivity extends Activity {
 			
 
 //2014/12/31			
- 
+ /*
 			do_exec("netcfg");  //ok
 			//do_exec("cat /proc/version"); //ok
-			//do_exec("./storage/sda1/reboot.sh"); //fail
-			//do_exec("system/bin" , "-c" , "./storage/sda1/reboot.sh"); //fail
-			//do_exec("su -c reboot"); //fail
+			
 			 //do_exec("ls"); //ok
 			 //do_exec("adb install /storage/sda1/StabilityTest_2.7.apk"); //fail
 			 //do_exec("sh /storage/sda1/cpufreq.sh");//fail
-			 //do_exec("logcat");//fail
 			 //do_exec("lsmod");//ok
 			 //do_exec("date");//ok
-			 //do_exec("top");//fail
+			 
 			 //do_exec("cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq");//fail
 		     //do_exec("cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"); ok
 			 
@@ -128,6 +129,6 @@ public class MainActivity extends Activity {
 
 }
 
-			
-			
-
+*/			
+		
+	
