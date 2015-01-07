@@ -1,0 +1,71 @@
+WARNING: interval too small, increasing from 0.00 to 0.5 seconds.
+------------------------------------------------------------
+Client connecting to 192.168.59.254, TCP port 5001
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[132] local 192.168.59.1 port 59975 connected with 192.168.59.254 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[132]  0.0- 0.5 sec  88.0 KBytes  1.44 Mbits/sec
+[132]  0.5- 1.0 sec   120 KBytes  1.97 Mbits/sec
+[132]  1.0- 1.5 sec   216 KBytes  3.54 Mbits/sec
+[132]  1.5- 2.0 sec   160 KBytes  2.62 Mbits/sec
+[132]  2.0- 2.5 sec   200 KBytes  3.28 Mbits/sec
+[132]  2.5- 3.0 sec   216 KBytes  3.54 Mbits/sec
+[132]  3.0- 3.5 sec   128 KBytes  2.10 Mbits/sec
+[132]  3.5- 4.0 sec   184 KBytes  3.01 Mbits/sec
+[132]  4.0- 4.5 sec   480 KBytes  7.86 Mbits/sec
+[132]  4.5- 5.0 sec   296 KBytes  4.85 Mbits/sec
+[132]  5.0- 5.5 sec   520 KBytes  8.52 Mbits/sec
+[132]  5.5- 6.0 sec   584 KBytes  9.57 Mbits/sec
+[132]  6.0- 6.5 sec   696 KBytes  11.4 Mbits/sec
+[132]  6.5- 7.0 sec   784 KBytes  12.8 Mbits/sec
+[132]  7.0- 7.5 sec   768 KBytes  12.6 Mbits/sec
+[132]  7.5- 8.0 sec   504 KBytes  8.26 Mbits/sec
+[132]  8.0- 8.5 sec   616 KBytes  10.1 Mbits/sec
+[132]  8.5- 9.0 sec   616 KBytes  10.1 Mbits/sec
+[132]  9.0- 9.5 sec   776 KBytes  12.7 Mbits/sec
+[132]  9.5-10.0 sec   632 KBytes  10.4 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[132] 10.0-10.5 sec   800 KBytes  13.1 Mbits/sec
+[132] 10.5-11.0 sec   824 KBytes  13.5 Mbits/sec
+[132] 11.0-11.5 sec   672 KBytes  11.0 Mbits/sec
+[132] 11.5-12.0 sec   656 KBytes  10.7 Mbits/sec
+[132] 12.0-12.5 sec   600 KBytes  9.83 Mbits/sec
+[132] 12.5-13.0 sec   864 KBytes  14.2 Mbits/sec
+[132] 13.0-13.5 sec   576 KBytes  9.44 Mbits/sec
+[132] 13.5-14.0 sec   552 KBytes  9.04 Mbits/sec
+[132] 14.0-14.5 sec   488 KBytes  8.00 Mbits/sec
+[132] 14.5-15.0 sec   272 KBytes  4.46 Mbits/sec
+[132] 15.0-15.5 sec   400 KBytes  6.55 Mbits/sec
+[132] 15.5-16.0 sec   640 KBytes  10.5 Mbits/sec
+[132] 16.0-16.5 sec   432 KBytes  7.08 Mbits/sec
+[132] 16.5-17.0 sec   624 KBytes  10.2 Mbits/sec
+[132] 17.0-17.5 sec   544 KBytes  8.91 Mbits/sec
+[132] 17.5-18.0 sec   440 KBytes  7.21 Mbits/sec
+[132] 18.0-18.5 sec   560 KBytes  9.18 Mbits/sec
+[132] 18.5-19.0 sec   648 KBytes  10.6 Mbits/sec
+[132] 19.0-19.5 sec   728 KBytes  11.9 Mbits/sec
+[132] 19.5-20.0 sec   496 KBytes  8.13 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[132] 20.0-20.5 sec   520 KBytes  8.52 Mbits/sec
+[132] 20.5-21.0 sec   632 KBytes  10.4 Mbits/sec
+[132] 21.0-21.5 sec   608 KBytes  9.96 Mbits/sec
+[132] 21.5-22.0 sec   568 KBytes  9.31 Mbits/sec
+[132] 22.0-22.5 sec   360 KBytes  5.90 Mbits/sec
+[132] 22.5-23.0 sec   472 KBytes  7.73 Mbits/sec
+[132] 23.0-23.5 sec   304 KBytes  4.98 Mbits/sec
+[132] 23.5-24.0 sec   296 KBytes  4.85 Mbits/sec
+[132] 24.0-24.5 sec   288 KBytes  4.72 Mbits/sec
+[132] 24.5-25.0 sec   296 KBytes  4.85 Mbits/sec
+[132] 25.0-25.5 sec   352 KBytes  5.77 Mbits/sec
+[132] 25.5-26.0 sec   520 KBytes  8.52 Mbits/sec
+[132] 26.0-26.5 sec   496 KBytes  8.13 Mbits/sec
+[132] 26.5-27.0 sec   528 KBytes  8.65 Mbits/sec
+[132] 27.0-27.5 sec   480 KBytes  7.86 Mbits/sec
+[132] 27.5-28.0 sec   328 KBytes  5.37 Mbits/sec
+[132] 28.0-28.5 sec   280 KBytes  4.59 Mbits/sec
+[132] 28.5-29.0 sec   304 KBytes  4.98 Mbits/sec
+[132] 29.0-29.5 sec   176 KBytes  2.88 Mbits/sec
+[132] 29.5-30.0 sec   312 KBytes  5.11 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[132]  0.0-30.0 sec  27.9 MBytes  7.78 Mbits/sec
